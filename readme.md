@@ -35,7 +35,7 @@ Authority: admins only (who has role `ROLE_ADMIN`)
 
 #### Admin Profile:
 
-|URL|HTTP method|Description|Curl|Response Code (success)|JSON|
+|URL|HTTP method|Description|Curl|Response Code (success)|Response Codes (fail)|
 |---|:---:|---|---|:---:|:---:|
 |/rest/admin/user|POST|Create new user|...|201|
 |/rest/admin/user/{id}|PUT|Update user profile|...|200|
