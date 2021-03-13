@@ -19,7 +19,7 @@ Base path for this project : `https://www.any.address.com/`
 #### User Profile:
 
 |URL|HTTP method|Description|Curl|Response Code (success)|JSON|
-|---|:---:|---|---|:---:|---|
+|---|:---:|---|---|:---:|:---:|
 |/rest/user/registration|POST|Registration|...|201,|`{  "email": "string",  "name": "string",   "password": "string"    }`|
 |/rest/user/{id}|GET|Get own profile|curl -s http://localhost:8080/rest/user --user user@gmail.com:user|200|
 |/rest/user|PUT|Update own profile|...|204|
